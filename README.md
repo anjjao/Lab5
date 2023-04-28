@@ -13,22 +13,36 @@ Drones and other UAV technology can be used to track crowd density. A Space-time
 | *Some annotated example frames in the DroneCrowd dataset. Different color indicates different object instance and the corresponding trajectory. The video-level attributes are presented on the top-left corner in each video frame.* |
 
 ![image](https://user-images.githubusercontent.com/127619036/235060082-c731f345-e1e6-41df-b949-68eddb80f830.png)
+|:--:|
+|*The architecture of our space-time multi-scale attention network for crowd counting. The pink rectangles indicate the convolution groups in VGG-16. The light blue rectangle indicates the deformable convolution layer [47].*|
 
 Similar technology that we see in STANet and crowd tracking drones can also be used to extract vehicle trajectories that can then be used to advance autonomous vehicle safety, proactive traffic safety, as well as other traffic safety applications. The advantage to using drones instead of sensors mounted on vehicles or roadside cameras is that drones have a wider detection area and are better at preserving vehicle shapes. The work that CitySim is doing is to provide accurate vehicle trajectories that contain a wider trajectory ranger. This allows for more critical safety events to be captured and for better vehicle geometric representation. Then it can be used to create a digital twin that can be used to better research traffic safety events such as intersection conflicts. One of the interesting aspects of the CitySim research is their use of more accurate bounding boxes to help ensure that the vehicle does not appear larger than it is when going around curves.
 
 ![image](https://user-images.githubusercontent.com/127619036/235060180-5257c33d-dfd5-4fba-9b8f-2a36334c6a32.png)
+|:--:|
+|*Straight bounding box versus rotated bounding box*|
 
 ![image](https://user-images.githubusercontent.com/127619036/235060239-edb4e267-1ebc-4d16-ab63-0b91e5a1048e.png)
+|:--:|
+|*Vehicle bounding box feature description*|
 
 ![image](https://user-images.githubusercontent.com/127619036/235060351-97811407-95ea-43b7-bdb2-1ced95a00653.png)
+|:--:|
+|*Post encroachment time conflicts in a single frame from the CitySim dataset Expressway A weaving segment location*|
 
 ![image](https://user-images.githubusercontent.com/127619036/235060433-e92b270b-421c-4f1f-9817-1ad0114727fc.png)
+|:--:|
+|*The production pipeline of CitySim*|
 
 ![image](https://user-images.githubusercontent.com/127619036/235060579-de55e7fd-6521-4ee8-93f2-66b052eaf438.png)
+|:--:|
+|*A digital-twin-based simulation framework that integrates both the virtual and physical worlds*|
 
 Evacuation mapping and optimization can use a combination of crowd and traffic tracking to make sure that when disaster strikes populations can be safely evacuated and avoid dangerous bottlenecks that impede evacuation. Simulation of Urban Mobility can create traffic simulations that can help aid in planning safe and effective evacuations. Currently if a vehicle has a deterministic fixed route, it will get stuck if there is a blocked exit and cannot safely evacuate. A vehicle with automatic rerouting would be able to react to this issue and still safely evacuate. In most scenarios it is human behavior that causes evacuation methods to fail, which is why using SUMO and other remote sensing mapping technologies proves to be more effective. 
 
 ![image](https://user-images.githubusercontent.com/127619036/235060675-483f1f45-db00-4b53-8879-4b32eb4dd42f.png)
+|:--:|
+|*Traffic management policy*|
 
 # Sources
 [Li, Jinhua, et al. "Improving the Accuracy and Efficiency of Deep Learning-Based Land Cover Mapping via Active Learning and Dynamic Label Selection." arXiv preprint arXiv:1912.01811v1 (2019).](https://arxiv.org/pdf/1912.01811v1.pdf)
