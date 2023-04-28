@@ -1,11 +1,16 @@
 #  Crowd and traffic tracking using remote sensing and its public safety applications
 ## Plz use this benevolently 
 
+![gif](https://media.giphy.com/media/RJbX7sCugWT3A5prZC/giphy.gif)
+|:--:|
+
 I do want to preface this as I originally thought that this would be a really interesting topic that could be used to make it easier for first responders and other emergency personnel to safely manage public evacuations. The more I read into the subject though, the more I realized that it could also be easily used to track people and maybe infringe on our privacy. So hopefully this technology won’t ever be used for nefarious purposes!
 
 Drones and other UAV technology can be used to track crowd density. A Space-time multi-scale attention network (STANet) can use this technology to solve density map estimation, localization, and tracking. Drone tracking and STANet can be used to accurately track crowd density and movement and it can be applied to public safety to help prevent potentially deadly stampedes. One important aspect of STANet is using spatio-temporal information to improve counting accuracy.
 
 ![image](https://user-images.githubusercontent.com/127619036/235059984-77392fc8-631a-4029-9951-b2cf108c9892.png)
+|:--:|
+| *Some annotated example frames in the DroneCrowd dataset. Different color indicates different object instance and the corresponding trajectory. The video-level attributes are presented on the top-left corner in each video frame.* |
 
 ![image](https://user-images.githubusercontent.com/127619036/235060082-c731f345-e1e6-41df-b949-68eddb80f830.png)
 
